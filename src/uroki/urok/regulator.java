@@ -9,5 +9,6 @@ public class regulator {
         Pattern pattern = Pattern.compile("(ab)+");
         Matcher matcher = pattern.matcher(text);
         System.out.println(matcher.replaceFirst("(ab)+"));
+        System.out.println();
     }
 }
